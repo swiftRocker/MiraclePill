@@ -30,13 +30,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MIRACLE PILLS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8s7-4F-HSi">
-                                <rect key="frame" x="112" y="132" width="151" height="32"/>
+                                <rect key="frame" x="96.5" y="132" width="182" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="5wN-eG-Gdj"/>
-                                    <constraint firstAttribute="width" constant="151" id="muh-h3-wJF"/>
+                                    <constraint firstAttribute="width" constant="182" id="muh-h3-wJF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.10588235294117647" green="0.10588235294117647" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$150" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eC3-0c-0Vh">
@@ -59,23 +59,22 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="eC3-0c-0Vh" firstAttribute="top" secondItem="8s7-4F-HSi" secondAttribute="bottom" constant="8" symbolic="YES" id="3nI-os-p5i"/>
+                            <constraint firstItem="eC3-0c-0Vh" firstAttribute="centerX" secondItem="8s7-4F-HSi" secondAttribute="centerX" id="3HK-SI-6iV"/>
+                            <constraint firstItem="eC3-0c-0Vh" firstAttribute="top" secondItem="8s7-4F-HSi" secondAttribute="bottom" constant="8" id="3nI-os-p5i"/>
                             <constraint firstItem="lej-ff-6mu" firstAttribute="top" secondItem="eC3-0c-0Vh" secondAttribute="bottom" constant="8" symbolic="YES" id="8BF-2U-b4B"/>
-                            <constraint firstItem="lej-ff-6mu" firstAttribute="centerX" secondItem="8s7-4F-HSi" secondAttribute="centerX" id="CVD-hE-pk1"/>
+                            <constraint firstItem="lej-ff-6mu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="9Dq-jT-H1O"/>
+                            <constraint firstItem="lej-ff-6mu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Rw-1p-hkV"/>
                             <constraint firstItem="Agx-cB-h8v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="DjX-aY-hwT"/>
-                            <constraint firstItem="lej-ff-6mu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="KgK-t3-TXw"/>
-                            <constraint firstItem="lej-ff-6mu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-20" id="OVJ-b2-9vY"/>
-                            <constraint firstItem="Agx-cB-h8v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UDG-Bf-R36"/>
-                            <constraint firstItem="8s7-4F-HSi" firstAttribute="top" secondItem="Agx-cB-h8v" secondAttribute="bottom" constant="21" id="Xmd-pS-24L"/>
-                            <constraint firstItem="eC3-0c-0Vh" firstAttribute="centerX" secondItem="8s7-4F-HSi" secondAttribute="centerX" id="o9S-Fc-zey"/>
-                            <constraint firstItem="8s7-4F-HSi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="96" id="opx-zq-4Ri"/>
-                            <constraint firstItem="8s7-4F-HSi" firstAttribute="centerX" secondItem="Agx-cB-h8v" secondAttribute="centerX" id="xfh-hD-hA1"/>
+                            <constraint firstItem="Agx-cB-h8v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NzK-b1-OOm"/>
+                            <constraint firstItem="8s7-4F-HSi" firstAttribute="centerX" secondItem="Agx-cB-h8v" secondAttribute="centerX" id="RW1-So-ONl"/>
+                            <constraint firstItem="8s7-4F-HSi" firstAttribute="top" secondItem="Agx-cB-h8v" secondAttribute="bottom" constant="21" id="cws-kI-ap5"/>
+                            <constraint firstItem="lej-ff-6mu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-20" id="gM7-M8-6jj"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="35.625" y="38.028169014084504"/>
+            <point key="canvasLocation" x="48" y="62"/>
         </scene>
     </scenes>
     <resources>
