@@ -17,8 +17,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        statePicker.dataSource = self
-        statePicker.delegate = self
+        statePicker.dataSource = self //this is source for data for picker
+        statePicker.delegate = self //this is delegate (acts on behalf of picker) for functions related to picker
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,7 +43,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        statePickerBtn.setTitle(states[row], for: UIControlState())
+        statePickerBtn.setTitle(states[row], for: UIControlState.normal) //bug? code s/b "UIControlState.normal"
         statePicker.isHidden = true
     }
     
